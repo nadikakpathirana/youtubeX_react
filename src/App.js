@@ -6,7 +6,6 @@ import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed } from './componen
 const App = () => {
   return <BrowserRouter>
     <Box sx={{
-        height: 100,
         backgroundColor: '#000',
         '&:hover': {
           backgroundColor: 'primary.main',
